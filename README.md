@@ -3,3 +3,6 @@ Ths repository will consist of a QA documentation, example templates and best qa
 
 Sources:
 https://www.freecodecamp.org/news/how-to-write-qa-documentation-that-will-work/
+
+т1: Комуникация
+т2: Права и задължения
