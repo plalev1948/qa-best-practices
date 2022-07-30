@@ -47,16 +47,20 @@ Screenshots: Screenshot 1 and Screenshot 2
 * Скрийншоти, които показват визуално на developer-a проблема къде е проблема и каква грешка се появява.
 
 В края на тестването един defect report трябва да изглежда по този начин.
-(Снимка от Jira)
+
+
+<img src="defect-report-Jira.png">
+
 
 2. THE LIFE-CYCLE OF A DEFECT REPORT
-Submitting is only the first step before fixing the bug once and for all. There’s a whole life-cycle.
 
-You start by submitting your defect report. Next, your project team has the option of either assigning it to a developer or declining the report. If your defect report is not a total mess, your team will accept it. Then, the assigned developer can either start fixing the bug or try to decline your report again. Usually, it’s your tech lead who decides if there are enough reasons for declining. Moreover, the tech lead has the power to defer any defect report under the pretense it’s not relevant.
+Изпращането на бъга е само първата стъпка преди отстраняването на грешката веднъж завинаги. Има цял жизнен цикъл.
 
-Congrats! You’ve forced the developer to fix the bug. What next? You have to double-check the bug fix and verify if all is good. If not, you have to start all over again and reopen the defect report. This bug-fixing battle can be a long one. You can, finally, close the defect report only after about a week or two after a proper bug fix.
+Той започва, когато се отвори тикета в Jira или GitHub с описанието на проблема. След това екип-a по проекта, project manager или team lead имат възможност или да го възложат на developer, или да го отхвърлят. Ако описанието на дадения бъг не е пълна бъркотия и е описан с факти, то почти сигурно екипа ще го приеме. QA трябва да е готов да помогне в пресъздаването на бъга, ако developer-а срещне някакви трудности в това. Team Lead, Project Manager и QA Lead имат правомощията да откажат да пуснат оправянето на всеки бъг, ако той е неуместен или не на начина по който функционира дадената страница/feature.
 
-This defect report life-cycle is definitely not set in stone, and it should reflect the needs of your project. Be smart!
+След като бъга е пуснат веднъж за fix и той е оправен от developer, QA трябва да влезне на тестовата среда/live е да се увери, че той е оправено както трябва. Ако не, дадения тикет се връща към developer-a, като в Jira се премества в To Do секцията. За един и същи бъг не трябва да се пускат отделни тикети в Jira/GitHub с цел да се избегне дублиране, като просто се отваря стария тикет наново.
+
+<img src="defect-report.png">
 
 
 3. TYPICAL ERRORS WHEN CREATING A DEFECT REPORT
