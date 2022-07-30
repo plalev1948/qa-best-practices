@@ -64,18 +64,14 @@ Screenshots: Screenshot 1 and Screenshot 2
 
 
 3. TYPICAL ERRORS WHEN CREATING A DEFECT REPORT
-There are dozens of mistakes testers make in a defect report. Yet, only a couple of them are typical and persisting. Let’s go through the typical errors when creating a defect report:
 
-A short and inadequate summary.
-The summary and the description are pretty much the same.
-The description has no expected result, no actual result, and no link to requirements. Nothing at all.
-A print screen has no issue highlighted. This way, the developers might as well play ‘Find Waldo’ with the issue.
-Describing imaginary defects.
-Putting away your work for tomorrow, and the day after tomorrow, and …. you get the idea.
-Making grammar mistakes. This is the easiest way to get shot by a grammar nazi.
-Describing features as bugs because you know it’s the best way to get fired.
-Not knowing the technical requirements of the tested solution. This type of tester is no better than this little dog-o below.
-Missing out important information in your Steps to Reproduce.
+Грешки, които да се избягват от QA при описване на даден бъг:
+* Кратко и неразбираемо резюме.
+* Описанието няма очакван резултат, няма действителен резултат и няма описан очакван резултат.
+* На добавения скрийншот не е подчертан проблема или скрийншота не отговаря за този проблем.
+* Описване на функциите като грешки, поради не знание на платформата по която се работи.
+* Непознаване на техническите изисквания на тестваното решение.
+* Пропускане на важна информация във вашите стъпки за възпроизвеждане.
 
 
 4. TEST PLANS
